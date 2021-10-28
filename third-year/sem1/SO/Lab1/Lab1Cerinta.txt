@@ -1,0 +1,22 @@
+0. Sa se scrie un Shell/Bash Script care afiseaza numarul de argumente primite, 
+respectiv afiseaza argumentele cate unul pe o linie.
+
+Test case 1: ./script.sh 1 2 3 4
+Test case 2: ./script.sh 1 2 '3 4'
+for I in $@ vs "$@"
+1. Sa se scrie un Shell/Bash Script care primeste ca si argumente in linie de comanda 
+numere naturale.
+Scriptul va verifica daca a primit cel putin un argument;
+in caz contrar va afisa un mesaj de utilizare.
+Scriptul va calcula:
+
+Cerinta I:
+Echipa 1: cate numere au fost pare.
+Echipa 2: cate numereu au fost impare.
+Echipa 3: suma numerelor primite.
+Echipa 4: produsul numerelor primite.
+
+Cerinta II:
+Scriptul va afisa cate cifre s-au citit in total.
+ex. ./script.sh 12 345 12
+=> 7 cifre
